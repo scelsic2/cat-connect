@@ -2,35 +2,24 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+Cat Connection is a social network API for cat lovers!  Create an account, post thoughts about cats, and react to other users cat thoughts! 
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+1. Install [Node.js](https://nodejs.org/en).
+2. Install [MongoDB](https://www.mongodb.com/docs/manual/installation/)
+3. Clone or fork the [repo](https://github.com/scelsic2/cat-connect).
+4. Open the repo with VS Code.
+5. Open an integrated terminal in the repo folder.
+6. In the terminal, run `npm init`.
+7. In the terminal, run `npm install express`.
+8. In the terminal, run `npm install mongodb`.
+9. In the terminal, run `npm install mongoose @6^`.
+10. In the terminal, run `npm install nodemon`.
+11. Start the server with `npm run dev`.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
@@ -42,10 +31,12 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 - Module 18, Activity 21
 - Tutoring 30APR2023
 - https://www.mongodb.com/docs/manual/reference/operator/update/pull/
+- https://www.youtube.com/watch?v=DZBGEVgL2eE
+- https://www.youtube.com/results?search_query=mongoose+pull
  
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+MIT License
 
 ## Deployed Application Link
 
