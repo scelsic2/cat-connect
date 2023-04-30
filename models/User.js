@@ -16,11 +16,11 @@ const userSchema = new Schema({
     match: [ /^[^\s@]+@[^\s@]+\.[^\s@]+$/ , 'Invalid email format']
   },
   thoughts: [{
-    type: mongoose.Schema.Types.ObjectId,
+    type: Schema.Types.ObjectId,
     ref: 'Thought'
   }],
   friends: [{
-    type: mongoose.Schema.Types.ObjectId,
+    type: Schema.Types.ObjectId,
     ref: 'User'
   }],
 },{

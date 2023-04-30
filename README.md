@@ -37,6 +37,11 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 - https://github.com/jdtdesigns/rut_mongoose_overview
 - Office Hours 28APR2023
 - https://www.freecodecamp.org/news/how-to-format-dates-in-javascript/
+- https://www.mongodb.com/docs/manual/reference/operator/update/push/
+- https://github.com/joce1ynn/social-network-NoSQL
+- Module 18, Activity 21
+- Tutoring 30APR2023
+- https://www.mongodb.com/docs/manual/reference/operator/update/pull/
  
 ## License
 

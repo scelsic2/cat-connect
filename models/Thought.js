@@ -18,9 +18,9 @@ const thoughtSchema = new Schema({
     required: true
   },
   reactions: [{
-    type: mongoose.Schema.Types.ObjectId,
+    type: Schema.Types.ObjectId,
     ref: 'Reaction'
-  }],
+  }]
 },{
     timestamps: true,
     toJSON: { virtuals: true },
