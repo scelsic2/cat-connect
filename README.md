@@ -2,7 +2,7 @@
 
 ## Description
 
-Cat Connection is a social network API for cat lovers!  Create an account, post thoughts about cats, and react to other users cat thoughts! 
+Cat Connection is a social network API for cat lovers!  Create an account, post thoughts about cats, and react to other users' cat thoughts! 
 
 ## Installation
 
@@ -19,6 +19,48 @@ Cat Connection is a social network API for cat lovers!  Create an account, post 
 11. Start the server with `npm run dev`.
 
 ## Usage
+Add a user.
+![Add a user](./images/s1.png)
+
+Edit a user.
+![Edit a user](./images/s2.png)
+
+View all users.
+![View all users](./images/s3.png)
+
+Add a thought.
+![Add a thought](./images/s4.png)
+
+Edit a thought.
+![Edit a thought](./images/s5.png)
+
+View all thoughts.
+![View all thoughts](./images/s6.png)
+
+Add a friend to friend list.
+![Add a friend to friend list](./images/s7.png)
+
+View a user with associated thoughts and friends.
+![View a user with associated thoughts and friends](./images/s8.png)
+
+Remove a friend from a friend list.
+![Remove a friend from a friend list](./images/s9.png)
+
+Create a reaction.
+![Create a reaction](./images/s10.png)
+
+View all reactions.
+![View all reactions](./images/s11.png)
+
+Delete a reaction.
+![Delete a reaction](./images/s12.png)
+
+Delete a thought.
+![Delete a thought](./images/s13.png)
+
+Delete a user.
+![Delete a user](./images/s14.png)
+
 
 
 ## Credits
@@ -38,6 +80,6 @@ Cat Connection is a social network API for cat lovers!  Create an account, post 
 
 MIT License
 
-## Deployed Application Link
+## Walkthrough
 
-Paste your deployed application link here.
+https://drive.google.com/file/d/1P2_uRVwI8remeaAbqdenRI1aGmVOhOzT/view?usp=sharing
