@@ -34,9 +34,6 @@ Add a thought.
 Edit a thought.
 ![Edit a thought](./images/s5.png)
 
-View all thoughts.
-![View all thoughts](./images/s6.png)
-
 Add a friend to friend list.
 ![Add a friend to friend list](./images/s7.png)
 
@@ -49,11 +46,8 @@ Remove a friend from a friend list.
 Create a reaction.
 ![Create a reaction](./images/s10.png)
 
-View all reactions.
-![View all reactions](./images/s11.png)
-
-Delete a reaction.
-![Delete a reaction](./images/s12.png)
+View all thoughts and associated reactions.
+![View all thoughts and associated reactions](./images/s15.png)
 
 Delete a thought.
 ![Delete a thought](./images/s13.png)
@@ -75,10 +69,11 @@ Delete a user.
 - https://www.mongodb.com/docs/manual/reference/operator/update/pull/
 - https://www.youtube.com/watch?v=DZBGEVgL2eE
 - https://www.youtube.com/results?search_query=mongoose+pull
+- Office Hours 01MAY2023
  
 ## License
 
 MIT License
 
 ## Walkthrough
-
+https://drive.google.com/file/d/1EzApDLzf55ZqUK6fkk2yl8zeUG8rxGg6/view?usp=sharing
