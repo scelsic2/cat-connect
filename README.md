@@ -82,4 +82,3 @@ MIT License
 
 ## Walkthrough
 
-https://drive.google.com/file/d/1P2_uRVwI8remeaAbqdenRI1aGmVOhOzT/view?usp=sharing

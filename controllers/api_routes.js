@@ -101,7 +101,7 @@ router.put('/users/:userId/friends/:friendId',   async (req, res) => {
 
 // GET all thoughts
 router.get('/thoughts', async (req, res) => {
-    const thoughts = await Thought.find();
+    const thoughts = await Thought.find().populate('reactions');
     res.send(thoughts);
   
 })
@@ -110,7 +110,7 @@ router.get('/thoughts', async (req, res) => {
 router.get('/thoughts/:id', async (req, res) => {
     const thought = await Thought.findOne({
         _id: req.params.id
-    });
+    }).populate('reactions');
     res.send(thought)
 })
 
@@ -179,7 +179,7 @@ router.post('/thoughts/:thoughtId/reactions', (req, res) => {
     .then((reaction) => {
         return Thought.findOneAndUpdate(
             { _id: req.params.thoughtId },
-            { $push: { reactions: newReaction._id} },
+            { $push: { reactions: reaction._id} },
             {new: true }
         );
     }).then((reaction => {
@@ -204,10 +204,10 @@ router.delete('/thoughts/:thoughtId/reactions/:reactionId', async (req, res) => 
 })
 
 // GET all reactions?
-router.get('/reactions', async (req, res) => {
-    const reactions = await Reaction.find();
-    res.send(reactions);
+// router.get('/reactions', async (req, res) => {
+//     const reactions = await Reaction.find();
+//     res.send(reactions);
   
-})
+// })
 
 module.exports = router
